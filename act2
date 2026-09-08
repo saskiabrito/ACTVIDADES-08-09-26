@@ -1,0 +1,9 @@
+%Hechos: Juan tiene una bicicleta y un coche
+tiene(juan, bicicleta).
+tiene(juan, coche).
+
+%Consulta: que cosas tiene juan?
+?- tiene(juan, X).
+?- tiene(juan,_).
+tiene(ana, coche).
+?- tiene(juan, X), tiene(ana, X).
